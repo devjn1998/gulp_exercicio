@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px; // Largura máxima do container
+    margin: 0 auto; // Centraliza o container na página
+    padding: 20px; // Espaçamento interno do container
+    background-color: #f0f0f0; // Cor de fundo do container
+    text-align: center;
+
+    h2 {
+        margin-bottom: 28px;
+        text-decoration: underline;
+    }
+}
+
+.grades {
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    align-items: center;
+
+    .img {
+        width: 300px;
+    }
+}
